@@ -1,0 +1,5 @@
+grpc:
+  client:
+    grpc-server-service:
+      address: static://localhost:8989
+      negotiationType: plaintext
